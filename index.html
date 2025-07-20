@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style>
+      body{
+        background-color:  hsl(0, 0%, 8%);
+        color: white;
+        font-family: Inter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container{
+        background-color: hsl(0, 0%, 12%);
+        margin: 0;
+        padding: 2em;
+        padding-bottom: 2.5em;
+        text-align: center;
+        width: 21.875em;
+        border-radius: 0.625em;
+      }
+
+      img{
+        height: 5.625em;
+        width: 5.625em;
+        border-radius: 6.25em;
+        margin-top: 0.875em;
+      }
+
+      h2{
+        font-weight: 700;
+      }
+
+      .location{
+        color: hsl(75, 94%, 57%);
+        margin-top: -0.625em;
+        font-size: 0.875em;
+        font-weight: 600;
+      }
+
+      p{
+        font-size: 0.875em;
+        color: rgb(161, 160, 160);
+        margin-bottom: 1.875em;
+      }
+
+      .social-button{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      button {
+        background-color: hsl(0, 0%, 20%);
+        color: white;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 0.5em;
+        width: 23em;
+        font-weight: 600;
+        font-size: 0.875em;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+      }
+      button:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+      }
+
+    </style>
+  </head>
+    <div class="container">
+      <img src="./assets//images/avatar-jessica.jpeg" alt="" class="profile">
+      <h2>Jessica Randall</h2>
+      <p class="location">London, United Kingdom</p>
+      <p class="desc">"Front-end developer and avid reader."</p>
+
+      <div class="social-button">
+        <button>Github</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+
+    </div>
+  </body>
+</html>
